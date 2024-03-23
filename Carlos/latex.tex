@@ -1,0 +1,66 @@
+\begin{center}
+\onecolumn
+\begin{longtable}{ccc}
+\caption{Testing Set Results for Astrophysical Parameters ($T_\mathrm{eff}$, $\log g$, [Fe/H], $\alpha$/M, [Mg/Fe]) in CSNet. Each plot features a one-to-one correlation between the parameters obtained from Apogee, Galah, and Lamost surveys and those predicted by the neural network, as well as identity lines. Subplots display the residuals, representing the difference between the parameters obtained from the spectroscopic surveys and those predicted by the neural network. Blue and red dots correspond to dwarfs and giants, respectively. For both dwarfs and giants, the colorbar indicates the effective temperature ($T_\mathrm{eff}$). The size of the symbols represents the value of $\log g$. \label{fig:predict-NN}} \\
+\endfirsthead
+\caption[]{--continued} \\
+\endhead
+
+\textbf{Apogee} &  \textbf{Galah} &  \textbf{Lamost} \\
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/TEFF_Apogee_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/Teff_Galah_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/teff_cnn_LamostMedium_NN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/LOGG_Apogee_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/logg_Galah_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/logg_cnn_LamostMedium_NN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/FE_H_Apogee_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/FeH_Galah_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/feh_cnn_LamostMedium_NN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/ALPHA_M_Apogee_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/alphaFe_Galah_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/alpha_m_cnn_LamostMedium_NN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/MG_FE_Apogee_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/MgFe_Galah_NN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/mg_fe_LamostMedium_NN_Combined.png} \\
+\end{longtable}
+\end{center}
+
+
+
+
+\begin{center}
+\onecolumn
+\begin{longtable}{ccc}
+\caption{Comparison between neural network predictions and random forest predictions. \label{fig:comparison-RFNN}} \\
+\endfirsthead
+\caption[]{--continued} \\
+\endhead
+%\hline \endfoot
+
+\textbf{Apogee} &  \textbf{Galah} &  \textbf{Lamost} \\
+ 
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/TEFF_Apogee_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/Teff_Galah_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/teff_cnn_LamostMedium_RFNN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/LOGG_Apogee_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/logg_Galah_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/logg_cnn_LamostMedium_RFNN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/FE_H_Apogee_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/FeH_Galah_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/feh_cnn_LamostMedium_RFNN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/ALPHA_M_Apogee_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/alphaFe_Galah_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/alpha_m_cnn_LamostMedium_RFNN_Combined.png} \\
+
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/MG_FE_Apogee_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/MgFe_Galah_RFNN_Combined.png} &
+\includegraphics[width=0.3\linewidth, trim=10 5 10 8, clip]{Figures/mg_fe_LamostMedium_RFNN_Combined.png} \\
+\end{longtable}
+\end{center}
